@@ -1,0 +1,67 @@
+.layout {
+	border: 1px solid #f9dcdc;
+	min-height: 250px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+		rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+	border-radius: 8px;
+	padding: 23px;
+	width: 320px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.form-group {
+	margin: 18px 0;
+}
+.form-group > label,
+.form-group > input {
+	margin: 2px;
+	display: block;
+	width: 100%;
+}
+
+.form-group > input {
+	outline: none;
+	border: 1px solid #f9dcdc;
+	height: 35px;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.05);
+	padding: 0 6px;
+	font-weight: 300;
+	color: darkslategray;
+}
+
+.forgot-password {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+	width: 100%;
+	font-size: 14px;
+	margin: -3px;
+	float: right;
+}
+
+.login-btn {
+	margin: 18px 0;
+}
+
+.signup-btn {
+	background: #9c8383;
+	margin-left: 10px;
+}
+
+.signup-link {
+	color: #467d7d;
+}
+@media screen and (max-width: 400px) {
+	.layout {
+		width: fit-content;
+		font-size: 14px;
+	}
+}
