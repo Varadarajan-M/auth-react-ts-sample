@@ -22,12 +22,8 @@ const UpdatePassword = () => {
 		}
 
 		api.updatePassword(password, token).then((res) => {
-			if (res.ok) {
-				alert(res.message);
-				navigate('/login', { replace: true });
-			} else {
-				alert(res.error);
-			}
+			res.ok ? alert(res.message) : alert(res.error)
+			navigate('/login', { replace: true });
 		});
 	};
 
