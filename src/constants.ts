@@ -1,4 +1,4 @@
-const _baseUrl: string = 'http://localhost:5000/api';
+const _baseUrl: string = 'https://auth-express-ts.up.railway.app/api';
 
 export const loginUrl = `${_baseUrl}/user/login`;
 
